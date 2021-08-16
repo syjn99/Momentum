@@ -1,11 +1,11 @@
 @font-face {
     font-family: "digitalClock";
-    src: url("Momentum/font/DS-DIGI.TTF") format("truetype");
+    src: url("/Momentum/font/DS-DIGI.TTF") format("truetype");
 }
 
 @font-face {
     font-family : "Roboto";
-    src : url("Momentum/font/Roboto-Regular.ttf") format("truetype");
+    src : url("/Momentum/font/Roboto-Regular.ttf") format("truetype");
 }
 
 * {
