@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "digitalClock";
+    src: url("/font/DS-DIGI.TTF") format("truetype");
+}
+
+@font-face {
+    font-family : "Roboto";
+    src : url("/font/Roboto-Regular.ttf") format("truetype");
+}
+
+* {
+    color:white;
+    font-family: "Roboto";
+}
+body {
+    background-color : black;
+}
+
+.hidden {
+    display: none;
+}
+
+#weather {
+    text-align: right;
+}
+
+#weather div:first-child {
+    font-style: italic;
+    font-size: 90%;
+}
+
+.centerAlign {
+    display: flex;
+    justify-content: center;
+}
+
+#clock {
+    font-family: "digitalClock";
+    font-size:1000%;
+    /* text-align: center;
+    align-items: center;
+    margin: 0px; */
+    margin-top:200px;
+    margin-bottom: 0px;
+}
+
+#login-form input {
+    width:300px;
+    height:50px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:3px solid white;
+    background:rgba(0, 0, 0, 0);
+    text-align: center;
+    font-size:30px;
+}
+::placeholder {
+    color:white;
+}
+
+#Greeting {
+    font-size: 50px;
+}
+#todo-form {
+    text-align: center;
+}
+
+#todo-form input {
+    width:250px;
+    height:50px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:3px solid white;
+    background:rgba(0, 0, 0, 0);
+    text-align: center;
+    font-size:20px;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+button {
+    background: rgba(0, 0, 0, 0);
+    border:none;
+}
+
+#quote {
+    text-align: center;
+    margin-top: 270px;
+}
+
+#quote div:first-child {
+    font-size:150%;
+}
